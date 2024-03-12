@@ -20,7 +20,7 @@ namespace medCentre
         }
         public static class ConnectionManager
         {
-            public static string ConnString { get; } = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\alexp\source\repos\MedCentre\medCentre\basesql.mdf;Integrated Security=True;Persist Security Info=False;Connect Timeout=30";
+            public static string ConnString { get; } = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\alexp\source\repos\MedCentre1\medCentre\basesql.mdf;Integrated Security=True;Connect Timeout=30";
         }
     }
 }
