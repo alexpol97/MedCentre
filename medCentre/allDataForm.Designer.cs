@@ -43,16 +43,16 @@
             this.titleLabel.AutoSize = true;
             this.titleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titleLabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(12, 9);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(171, 21);
+            this.titleLabel.Size = new System.Drawing.Size(159, 19);
             this.titleLabel.TabIndex = 14;
             this.titleLabel.Text = "Просмотр данных";
             // 
             // minimizeButton
             // 
-            this.minimizeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.minimizeButton.BackColor = System.Drawing.Color.Gray;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minimizeButton.ForeColor = System.Drawing.Color.White;
@@ -66,7 +66,7 @@
             // 
             // closeButton
             // 
-            this.closeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.closeButton.BackColor = System.Drawing.Color.Gray;
             this.closeButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -95,7 +95,7 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.Color.DeepSkyBlue;
+            this.dataGridView1.GridColor = System.Drawing.Color.LightGray;
             this.dataGridView1.Location = new System.Drawing.Point(12, 43);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -106,7 +106,7 @@
             // 
             // tableCB
             // 
-            this.tableCB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.tableCB.BackColor = System.Drawing.Color.Gray;
             this.tableCB.ForeColor = System.Drawing.Color.White;
             this.tableCB.FormattingEnabled = true;
             this.tableCB.Items.AddRange(new object[] {
@@ -116,14 +116,14 @@
             "[Услуги]"});
             this.tableCB.Location = new System.Drawing.Point(12, 413);
             this.tableCB.Name = "tableCB";
-            this.tableCB.Size = new System.Drawing.Size(302, 25);
+            this.tableCB.Size = new System.Drawing.Size(302, 24);
             this.tableCB.TabIndex = 16;
             this.tableCB.Text = "  Выберите таблицу для просмотра";
             this.tableCB.SelectedIndexChanged += new System.EventHandler(this.tableCB_SelectedIndexChanged);
             // 
             // okButton
             // 
-            this.okButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.okButton.BackColor = System.Drawing.Color.Gray;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.okButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.okButton.ForeColor = System.Drawing.Color.White;

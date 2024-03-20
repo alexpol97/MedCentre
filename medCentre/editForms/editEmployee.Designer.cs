@@ -48,7 +48,7 @@
             // 
             // minimizeButton
             // 
-            this.minimizeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.minimizeButton.BackColor = System.Drawing.Color.Gray;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minimizeButton.ForeColor = System.Drawing.Color.White;
@@ -62,7 +62,7 @@
             // 
             // closeButton
             // 
-            this.closeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.closeButton.BackColor = System.Drawing.Color.Gray;
             this.closeButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -91,10 +91,10 @@
             this.titleLabel.AutoSize = true;
             this.titleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titleLabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(12, 9);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(275, 21);
+            this.titleLabel.Size = new System.Drawing.Size(255, 19);
             this.titleLabel.TabIndex = 10;
             this.titleLabel.Text = "Изменить данные сотрудника";
             // 
@@ -115,7 +115,7 @@
             // 
             // cab
             // 
-            this.cab.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.cab.BackColor = System.Drawing.Color.Gray;
             this.cab.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.cab.ForeColor = System.Drawing.Color.White;
             this.cab.Location = new System.Drawing.Point(2, 137);
@@ -126,7 +126,7 @@
             // 
             // spec
             // 
-            this.spec.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.spec.BackColor = System.Drawing.Color.Gray;
             this.spec.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.spec.ForeColor = System.Drawing.Color.White;
             this.spec.Location = new System.Drawing.Point(2, 81);
@@ -137,7 +137,7 @@
             // 
             // name
             // 
-            this.name.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.name.BackColor = System.Drawing.Color.Gray;
             this.name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.name.ForeColor = System.Drawing.Color.White;
             this.name.Location = new System.Drawing.Point(2, 24);
@@ -152,7 +152,7 @@
             this.cabLabel.ForeColor = System.Drawing.Color.White;
             this.cabLabel.Location = new System.Drawing.Point(3, 113);
             this.cabLabel.Name = "cabLabel";
-            this.cabLabel.Size = new System.Drawing.Size(84, 21);
+            this.cabLabel.Size = new System.Drawing.Size(78, 19);
             this.cabLabel.TabIndex = 5;
             this.cabLabel.Text = "Кабинет";
             // 
@@ -162,7 +162,7 @@
             this.specLabel.ForeColor = System.Drawing.Color.White;
             this.specLabel.Location = new System.Drawing.Point(3, 57);
             this.specLabel.Name = "specLabel";
-            this.specLabel.Size = new System.Drawing.Size(151, 21);
+            this.specLabel.Size = new System.Drawing.Size(139, 19);
             this.specLabel.TabIndex = 3;
             this.specLabel.Text = "Специализация";
             // 
@@ -172,13 +172,13 @@
             this.nameLabel.ForeColor = System.Drawing.Color.White;
             this.nameLabel.Location = new System.Drawing.Point(3, 1);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(53, 21);
+            this.nameLabel.Size = new System.Drawing.Size(45, 19);
             this.nameLabel.TabIndex = 0;
             this.nameLabel.Text = "ФИО";
             // 
             // cancelButton
             // 
-            this.cancelButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.cancelButton.BackColor = System.Drawing.Color.Gray;
             this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -193,7 +193,7 @@
             // 
             // okButton
             // 
-            this.okButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.okButton.BackColor = System.Drawing.Color.Gray;
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.okButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -211,7 +211,7 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.Color.DeepSkyBlue;
+            this.dataGridView1.GridColor = System.Drawing.Color.Gray;
             this.dataGridView1.Location = new System.Drawing.Point(12, 43);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;

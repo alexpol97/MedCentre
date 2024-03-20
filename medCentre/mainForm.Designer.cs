@@ -77,7 +77,6 @@
             this.editPersonalTSMI = new System.Windows.Forms.ToolStripMenuItem();
             this.editPacientTSMI = new System.Windows.Forms.ToolStripMenuItem();
             this.editServiceTSMI = new System.Windows.Forms.ToolStripMenuItem();
-            this.logoPB = new System.Windows.Forms.PictureBox();
             this.appointmentGB.SuspendLayout();
             this.dataViewGB.SuspendLayout();
             this.ieGB.SuspendLayout();
@@ -88,18 +87,17 @@
             this.importContext.SuspendLayout();
             this.addContext.SuspendLayout();
             this.editContext.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.logoPB)).BeginInit();
             this.SuspendLayout();
             // 
             // addAppointmentButton
             // 
-            this.addAppointmentButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.addAppointmentButton.BackColor = System.Drawing.Color.Gray;
             this.addAppointmentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addAppointmentButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addAppointmentButton.ForeColor = System.Drawing.Color.White;
             this.addAppointmentButton.Location = new System.Drawing.Point(15, 26);
             this.addAppointmentButton.Name = "addAppointmentButton";
-            this.addAppointmentButton.Size = new System.Drawing.Size(211, 30);
+            this.addAppointmentButton.Size = new System.Drawing.Size(320, 30);
             this.addAppointmentButton.TabIndex = 4;
             this.addAppointmentButton.Text = "Записать на приём";
             this.addAppointmentButton.UseVisualStyleBackColor = false;
@@ -107,13 +105,13 @@
             // 
             // cancelAppointmentButton
             // 
-            this.cancelAppointmentButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.cancelAppointmentButton.BackColor = System.Drawing.Color.Gray;
             this.cancelAppointmentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelAppointmentButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cancelAppointmentButton.ForeColor = System.Drawing.Color.White;
             this.cancelAppointmentButton.Location = new System.Drawing.Point(15, 62);
             this.cancelAppointmentButton.Name = "cancelAppointmentButton";
-            this.cancelAppointmentButton.Size = new System.Drawing.Size(211, 30);
+            this.cancelAppointmentButton.Size = new System.Drawing.Size(320, 30);
             this.cancelAppointmentButton.TabIndex = 5;
             this.cancelAppointmentButton.Text = "Отменить запись";
             this.cancelAppointmentButton.UseVisualStyleBackColor = false;
@@ -121,13 +119,13 @@
             // 
             // viewPacientsButton
             // 
-            this.viewPacientsButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.viewPacientsButton.BackColor = System.Drawing.Color.Gray;
             this.viewPacientsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewPacientsButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.viewPacientsButton.ForeColor = System.Drawing.Color.White;
             this.viewPacientsButton.Location = new System.Drawing.Point(15, 100);
             this.viewPacientsButton.Name = "viewPacientsButton";
-            this.viewPacientsButton.Size = new System.Drawing.Size(211, 30);
+            this.viewPacientsButton.Size = new System.Drawing.Size(320, 30);
             this.viewPacientsButton.TabIndex = 6;
             this.viewPacientsButton.Text = "Пациенты";
             this.viewPacientsButton.UseVisualStyleBackColor = false;
@@ -135,13 +133,13 @@
             // 
             // viewScheduleButton
             // 
-            this.viewScheduleButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.viewScheduleButton.BackColor = System.Drawing.Color.Gray;
             this.viewScheduleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewScheduleButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.viewScheduleButton.ForeColor = System.Drawing.Color.White;
             this.viewScheduleButton.Location = new System.Drawing.Point(15, 28);
             this.viewScheduleButton.Name = "viewScheduleButton";
-            this.viewScheduleButton.Size = new System.Drawing.Size(211, 30);
+            this.viewScheduleButton.Size = new System.Drawing.Size(320, 30);
             this.viewScheduleButton.TabIndex = 7;
             this.viewScheduleButton.Text = "Расписание";
             this.viewScheduleButton.UseVisualStyleBackColor = false;
@@ -149,13 +147,13 @@
             // 
             // viewEmployeesButton
             // 
-            this.viewEmployeesButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.viewEmployeesButton.BackColor = System.Drawing.Color.Gray;
             this.viewEmployeesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewEmployeesButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.viewEmployeesButton.ForeColor = System.Drawing.Color.White;
             this.viewEmployeesButton.Location = new System.Drawing.Point(15, 64);
             this.viewEmployeesButton.Name = "viewEmployeesButton";
-            this.viewEmployeesButton.Size = new System.Drawing.Size(211, 30);
+            this.viewEmployeesButton.Size = new System.Drawing.Size(320, 30);
             this.viewEmployeesButton.TabIndex = 8;
             this.viewEmployeesButton.Text = "Сотрудники";
             this.viewEmployeesButton.UseVisualStyleBackColor = false;
@@ -163,10 +161,10 @@
             // 
             // minimizeButton
             // 
-            this.minimizeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.minimizeButton.BackColor = System.Drawing.Color.DarkGray;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.minimizeButton.ForeColor = System.Drawing.Color.White;
+            this.minimizeButton.ForeColor = System.Drawing.Color.Black;
             this.minimizeButton.Location = new System.Drawing.Point(729, 5);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(30, 30);
@@ -177,10 +175,10 @@
             // 
             // closeButton
             // 
-            this.closeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.closeButton.BackColor = System.Drawing.Color.DarkGray;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.closeButton.ForeColor = System.Drawing.Color.White;
+            this.closeButton.ForeColor = System.Drawing.Color.Black;
             this.closeButton.Location = new System.Drawing.Point(765, 5);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(30, 30);
@@ -205,12 +203,13 @@
             this.titleLabel.AutoSize = true;
             this.titleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titleLabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(12, 9);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(278, 21);
+            this.titleLabel.Size = new System.Drawing.Size(260, 19);
             this.titleLabel.TabIndex = 10;
-            this.titleLabel.Text = "Медицинский центр \"Лазурит\"";
+            this.titleLabel.Text = "Регистрация и учет пациентов";
+            this.titleLabel.Click += new System.EventHandler(this.titleLabel_Click);
             // 
             // otherTitleLabel
             // 
@@ -220,7 +219,7 @@
             this.otherTitleLabel.ForeColor = System.Drawing.Color.White;
             this.otherTitleLabel.Location = new System.Drawing.Point(6, 0);
             this.otherTitleLabel.Name = "otherTitleLabel";
-            this.otherTitleLabel.Size = new System.Drawing.Size(155, 21);
+            this.otherTitleLabel.Size = new System.Drawing.Size(146, 19);
             this.otherTitleLabel.TabIndex = 20;
             this.otherTitleLabel.Text = "Другие действия";
             // 
@@ -231,9 +230,9 @@
             this.appointmentGB.Controls.Add(this.cancelAppointmentButton);
             this.appointmentGB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.appointmentGB.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.appointmentGB.Location = new System.Drawing.Point(545, 71);
+            this.appointmentGB.Location = new System.Drawing.Point(435, 71);
             this.appointmentGB.Name = "appointmentGB";
-            this.appointmentGB.Size = new System.Drawing.Size(243, 105);
+            this.appointmentGB.Size = new System.Drawing.Size(350, 105);
             this.appointmentGB.TabIndex = 22;
             this.appointmentGB.TabStop = false;
             this.appointmentGB.Text = "Запись";
@@ -246,7 +245,7 @@
             this.appointmentTitleLabel.ForeColor = System.Drawing.Color.White;
             this.appointmentTitleLabel.Location = new System.Drawing.Point(6, 0);
             this.appointmentTitleLabel.Name = "appointmentTitleLabel";
-            this.appointmentTitleLabel.Size = new System.Drawing.Size(74, 21);
+            this.appointmentTitleLabel.Size = new System.Drawing.Size(67, 19);
             this.appointmentTitleLabel.TabIndex = 25;
             this.appointmentTitleLabel.Text = "Запись";
             // 
@@ -258,9 +257,9 @@
             this.dataViewGB.Controls.Add(this.viewEmployeesButton);
             this.dataViewGB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dataViewGB.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dataViewGB.Location = new System.Drawing.Point(545, 182);
+            this.dataViewGB.Location = new System.Drawing.Point(435, 182);
             this.dataViewGB.Name = "dataViewGB";
-            this.dataViewGB.Size = new System.Drawing.Size(243, 145);
+            this.dataViewGB.Size = new System.Drawing.Size(350, 145);
             this.dataViewGB.TabIndex = 23;
             this.dataViewGB.TabStop = false;
             this.dataViewGB.Text = "Просмотр данных";
@@ -273,7 +272,7 @@
             this.viewDataTitleLabel.ForeColor = System.Drawing.Color.White;
             this.viewDataTitleLabel.Location = new System.Drawing.Point(6, 0);
             this.viewDataTitleLabel.Name = "viewDataTitleLabel";
-            this.viewDataTitleLabel.Size = new System.Drawing.Size(171, 21);
+            this.viewDataTitleLabel.Size = new System.Drawing.Size(159, 19);
             this.viewDataTitleLabel.TabIndex = 24;
             this.viewDataTitleLabel.Text = "Просмотр данных";
             // 
@@ -286,20 +285,20 @@
             this.ieGB.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ieGB.Location = new System.Drawing.Point(16, 71);
             this.ieGB.Name = "ieGB";
-            this.ieGB.Size = new System.Drawing.Size(243, 105);
+            this.ieGB.Size = new System.Drawing.Size(350, 105);
             this.ieGB.TabIndex = 25;
             this.ieGB.TabStop = false;
             this.ieGB.Text = "Экспорт / Импорт";
             // 
             // exportButton
             // 
-            this.exportButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.exportButton.BackColor = System.Drawing.Color.Gray;
             this.exportButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exportButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.exportButton.ForeColor = System.Drawing.Color.White;
             this.exportButton.Location = new System.Drawing.Point(15, 26);
             this.exportButton.Name = "exportButton";
-            this.exportButton.Size = new System.Drawing.Size(211, 34);
+            this.exportButton.Size = new System.Drawing.Size(320, 34);
             this.exportButton.TabIndex = 30;
             this.exportButton.Text = "Экспорт данных";
             this.exportButton.UseVisualStyleBackColor = false;
@@ -307,13 +306,13 @@
             // 
             // importButton
             // 
-            this.importButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.importButton.BackColor = System.Drawing.Color.Gray;
             this.importButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.importButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.importButton.ForeColor = System.Drawing.Color.White;
             this.importButton.Location = new System.Drawing.Point(15, 66);
             this.importButton.Name = "importButton";
-            this.importButton.Size = new System.Drawing.Size(211, 30);
+            this.importButton.Size = new System.Drawing.Size(320, 30);
             this.importButton.TabIndex = 29;
             this.importButton.Text = "Импорт данных";
             this.importButton.UseVisualStyleBackColor = false;
@@ -327,7 +326,7 @@
             this.ieTitleLabel.ForeColor = System.Drawing.Color.White;
             this.ieTitleLabel.Location = new System.Drawing.Point(6, 0);
             this.ieTitleLabel.Name = "ieTitleLabel";
-            this.ieTitleLabel.Size = new System.Drawing.Size(172, 21);
+            this.ieTitleLabel.Size = new System.Drawing.Size(157, 19);
             this.ieTitleLabel.TabIndex = 24;
             this.ieTitleLabel.Text = "Экспорт / Импорт";
             // 
@@ -341,20 +340,20 @@
             this.dbWorkGB.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dbWorkGB.Location = new System.Drawing.Point(16, 182);
             this.dbWorkGB.Name = "dbWorkGB";
-            this.dbWorkGB.Size = new System.Drawing.Size(243, 145);
+            this.dbWorkGB.Size = new System.Drawing.Size(350, 145);
             this.dbWorkGB.TabIndex = 26;
             this.dbWorkGB.TabStop = false;
             this.dbWorkGB.Text = "Работа с данными";
             // 
             // deleteButton
             // 
-            this.deleteButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.deleteButton.BackColor = System.Drawing.Color.Gray;
             this.deleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.deleteButton.ForeColor = System.Drawing.Color.White;
             this.deleteButton.Location = new System.Drawing.Point(15, 100);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(211, 30);
+            this.deleteButton.Size = new System.Drawing.Size(320, 30);
             this.deleteButton.TabIndex = 27;
             this.deleteButton.Text = "Удалить";
             this.deleteButton.UseVisualStyleBackColor = false;
@@ -362,13 +361,13 @@
             // 
             // editButton
             // 
-            this.editButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.editButton.BackColor = System.Drawing.Color.Gray;
             this.editButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.editButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.editButton.ForeColor = System.Drawing.Color.White;
             this.editButton.Location = new System.Drawing.Point(15, 64);
             this.editButton.Name = "editButton";
-            this.editButton.Size = new System.Drawing.Size(211, 30);
+            this.editButton.Size = new System.Drawing.Size(320, 30);
             this.editButton.TabIndex = 26;
             this.editButton.Text = "Изменить";
             this.editButton.UseVisualStyleBackColor = false;
@@ -376,13 +375,13 @@
             // 
             // addButton
             // 
-            this.addButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.addButton.BackColor = System.Drawing.Color.Gray;
             this.addButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addButton.ForeColor = System.Drawing.Color.White;
             this.addButton.Location = new System.Drawing.Point(15, 28);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(211, 30);
+            this.addButton.Size = new System.Drawing.Size(320, 30);
             this.addButton.TabIndex = 25;
             this.addButton.Text = "Добавить";
             this.addButton.UseVisualStyleBackColor = false;
@@ -396,7 +395,7 @@
             this.dbWorkTitleLabel.ForeColor = System.Drawing.Color.White;
             this.dbWorkTitleLabel.Location = new System.Drawing.Point(6, 0);
             this.dbWorkTitleLabel.Name = "dbWorkTitleLabel";
-            this.dbWorkTitleLabel.Size = new System.Drawing.Size(177, 21);
+            this.dbWorkTitleLabel.Size = new System.Drawing.Size(162, 19);
             this.dbWorkTitleLabel.TabIndex = 24;
             this.dbWorkTitleLabel.Text = "Работа с данными";
             // 
@@ -408,20 +407,20 @@
             this.otherGB.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.otherGB.Location = new System.Drawing.Point(16, 333);
             this.otherGB.Name = "otherGB";
-            this.otherGB.Size = new System.Drawing.Size(243, 72);
+            this.otherGB.Size = new System.Drawing.Size(350, 72);
             this.otherGB.TabIndex = 23;
             this.otherGB.TabStop = false;
             this.otherGB.Text = "Другие действия";
             // 
             // searchButton
             // 
-            this.searchButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.searchButton.BackColor = System.Drawing.Color.Gray;
             this.searchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.searchButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.searchButton.ForeColor = System.Drawing.Color.White;
             this.searchButton.Location = new System.Drawing.Point(15, 26);
             this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(211, 34);
+            this.searchButton.Size = new System.Drawing.Size(320, 34);
             this.searchButton.TabIndex = 28;
             this.searchButton.Text = "Поиск";
             this.searchButton.UseVisualStyleBackColor = false;
@@ -429,7 +428,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.exitButton.BackColor = System.Drawing.Color.Gray;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.exitButton.ForeColor = System.Drawing.Color.White;
@@ -447,9 +446,9 @@
             this.exitGB.Controls.Add(this.exitButton);
             this.exitGB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitGB.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.exitGB.Location = new System.Drawing.Point(545, 333);
+            this.exitGB.Location = new System.Drawing.Point(496, 333);
             this.exitGB.Name = "exitGB";
-            this.exitGB.Size = new System.Drawing.Size(243, 72);
+            this.exitGB.Size = new System.Drawing.Size(231, 72);
             this.exitGB.TabIndex = 29;
             this.exitGB.TabStop = false;
             this.exitGB.Text = "Выход из программы";
@@ -462,7 +461,7 @@
             this.exitTitleLabel.ForeColor = System.Drawing.Color.White;
             this.exitTitleLabel.Location = new System.Drawing.Point(6, 0);
             this.exitTitleLabel.Name = "exitTitleLabel";
-            this.exitTitleLabel.Size = new System.Drawing.Size(198, 21);
+            this.exitTitleLabel.Size = new System.Drawing.Size(181, 19);
             this.exitTitleLabel.TabIndex = 20;
             this.exitTitleLabel.Text = "Выход из программы";
             // 
@@ -678,22 +677,12 @@
             this.editServiceTSMI.Text = "Данные об услуге";
             this.editServiceTSMI.Click += new System.EventHandler(this.editServiceTSMI_Click);
             // 
-            // logoPB
-            // 
-            this.logoPB.BackgroundImage = global::medCentre.Properties.Resources.logo;
-            this.logoPB.Location = new System.Drawing.Point(275, 104);
-            this.logoPB.Name = "logoPB";
-            this.logoPB.Size = new System.Drawing.Size(256, 256);
-            this.logoPB.TabIndex = 27;
-            this.logoPB.TabStop = false;
-            // 
             // mainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.exitGB);
-            this.Controls.Add(this.logoPB);
             this.Controls.Add(this.otherGB);
             this.Controls.Add(this.dbWorkGB);
             this.Controls.Add(this.ieGB);
@@ -709,6 +698,7 @@
             this.MainMenuStrip = this.mainMenuStrip;
             this.Name = "mainForm";
             this.Text = "Медицинский центр \"Агат\"";
+            this.Load += new System.EventHandler(this.mainForm_Load);
             this.appointmentGB.ResumeLayout(false);
             this.appointmentGB.PerformLayout();
             this.dataViewGB.ResumeLayout(false);
@@ -725,7 +715,6 @@
             this.importContext.ResumeLayout(false);
             this.addContext.ResumeLayout(false);
             this.editContext.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.logoPB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -753,7 +742,6 @@
         private System.Windows.Forms.GroupBox otherGB;
         private System.Windows.Forms.Label appointmentTitleLabel;
         private System.Windows.Forms.Button exitButton;
-        private System.Windows.Forms.PictureBox logoPB;
         private System.Windows.Forms.Button exportButton;
         private System.Windows.Forms.Button importButton;
         private System.Windows.Forms.Button searchButton;

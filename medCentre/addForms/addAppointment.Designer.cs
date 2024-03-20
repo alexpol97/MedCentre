@@ -50,7 +50,7 @@
             // 
             // minimizeButton
             // 
-            this.minimizeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.minimizeButton.BackColor = System.Drawing.Color.Gray;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minimizeButton.ForeColor = System.Drawing.Color.White;
@@ -64,7 +64,7 @@
             // 
             // closeButton
             // 
-            this.closeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.closeButton.BackColor = System.Drawing.Color.Gray;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.closeButton.ForeColor = System.Drawing.Color.White;
@@ -92,19 +92,19 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 21);
+            this.label1.Size = new System.Drawing.Size(169, 19);
             this.label1.TabIndex = 10;
             this.label1.Text = "Записать на приём";
             // 
             // addAppointmentButton
             // 
-            this.addAppointmentButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.addAppointmentButton.BackColor = System.Drawing.Color.Gray;
             this.addAppointmentButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.addAppointmentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.addAppointmentButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addAppointmentButton.ForeColor = System.Drawing.Color.White;
             this.addAppointmentButton.Location = new System.Drawing.Point(234, 408);
             this.addAppointmentButton.Name = "addAppointmentButton";
@@ -116,10 +116,10 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.cancelButton.BackColor = System.Drawing.Color.Gray;
             this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancelButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cancelButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cancelButton.ForeColor = System.Drawing.Color.White;
             this.cancelButton.Location = new System.Drawing.Point(10, 408);
             this.cancelButton.Name = "cancelButton";
@@ -160,7 +160,7 @@
             // 
             // timeCB
             // 
-            this.timeCB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.timeCB.BackColor = System.Drawing.Color.Gray;
             this.timeCB.Enabled = false;
             this.timeCB.ForeColor = System.Drawing.Color.White;
             this.timeCB.FormattingEnabled = true;
@@ -187,37 +187,37 @@
             "17:30"});
             this.timeCB.Location = new System.Drawing.Point(0, 194);
             this.timeCB.Name = "timeCB";
-            this.timeCB.Size = new System.Drawing.Size(432, 29);
+            this.timeCB.Size = new System.Drawing.Size(432, 27);
             this.timeCB.TabIndex = 13;
             // 
             // pacientCB
             // 
-            this.pacientCB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pacientCB.BackColor = System.Drawing.Color.Gray;
             this.pacientCB.ForeColor = System.Drawing.Color.White;
             this.pacientCB.FormattingEnabled = true;
             this.pacientCB.Location = new System.Drawing.Point(0, 25);
             this.pacientCB.Name = "pacientCB";
-            this.pacientCB.Size = new System.Drawing.Size(432, 29);
+            this.pacientCB.Size = new System.Drawing.Size(432, 27);
             this.pacientCB.TabIndex = 12;
             // 
             // servicesCB
             // 
-            this.servicesCB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.servicesCB.BackColor = System.Drawing.Color.Gray;
             this.servicesCB.ForeColor = System.Drawing.Color.White;
             this.servicesCB.FormattingEnabled = true;
             this.servicesCB.Location = new System.Drawing.Point(0, 250);
             this.servicesCB.Name = "servicesCB";
-            this.servicesCB.Size = new System.Drawing.Size(432, 29);
+            this.servicesCB.Size = new System.Drawing.Size(432, 27);
             this.servicesCB.TabIndex = 11;
             // 
             // doctorCB
             // 
-            this.doctorCB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.doctorCB.BackColor = System.Drawing.Color.Gray;
             this.doctorCB.ForeColor = System.Drawing.Color.White;
             this.doctorCB.FormattingEnabled = true;
             this.doctorCB.Location = new System.Drawing.Point(0, 81);
             this.doctorCB.Name = "doctorCB";
-            this.doctorCB.Size = new System.Drawing.Size(432, 29);
+            this.doctorCB.Size = new System.Drawing.Size(432, 27);
             this.doctorCB.TabIndex = 10;
             // 
             // serviceLabel
@@ -226,7 +226,7 @@
             this.serviceLabel.ForeColor = System.Drawing.Color.White;
             this.serviceLabel.Location = new System.Drawing.Point(3, 226);
             this.serviceLabel.Name = "serviceLabel";
-            this.serviceLabel.Size = new System.Drawing.Size(70, 21);
+            this.serviceLabel.Size = new System.Drawing.Size(64, 19);
             this.serviceLabel.TabIndex = 9;
             this.serviceLabel.Text = "Услуга";
             // 
@@ -236,7 +236,7 @@
             this.timeLabel.ForeColor = System.Drawing.Color.White;
             this.timeLabel.Location = new System.Drawing.Point(3, 169);
             this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(66, 21);
+            this.timeLabel.Size = new System.Drawing.Size(60, 19);
             this.timeLabel.TabIndex = 7;
             this.timeLabel.Text = "Время";
             // 
@@ -246,7 +246,7 @@
             this.dateLabel.ForeColor = System.Drawing.Color.White;
             this.dateLabel.Location = new System.Drawing.Point(3, 113);
             this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(54, 21);
+            this.dateLabel.Size = new System.Drawing.Size(51, 19);
             this.dateLabel.TabIndex = 5;
             this.dateLabel.Text = "Дата";
             // 
@@ -256,7 +256,7 @@
             this.doctorLabel.ForeColor = System.Drawing.Color.White;
             this.doctorLabel.Location = new System.Drawing.Point(3, 57);
             this.doctorLabel.Name = "doctorLabel";
-            this.doctorLabel.Size = new System.Drawing.Size(52, 21);
+            this.doctorLabel.Size = new System.Drawing.Size(49, 19);
             this.doctorLabel.TabIndex = 3;
             this.doctorLabel.Text = "Врач";
             // 
@@ -266,7 +266,7 @@
             this.pacientLabel.ForeColor = System.Drawing.Color.White;
             this.pacientLabel.Location = new System.Drawing.Point(3, 1);
             this.pacientLabel.Name = "pacientLabel";
-            this.pacientLabel.Size = new System.Drawing.Size(85, 21);
+            this.pacientLabel.Size = new System.Drawing.Size(80, 19);
             this.pacientLabel.TabIndex = 0;
             this.pacientLabel.Text = "Пациент";
             // 

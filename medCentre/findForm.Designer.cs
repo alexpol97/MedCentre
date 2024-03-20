@@ -47,7 +47,7 @@
             // 
             // minimizeButton
             // 
-            this.minimizeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.minimizeButton.BackColor = System.Drawing.Color.Gray;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minimizeButton.ForeColor = System.Drawing.Color.White;
@@ -61,7 +61,7 @@
             // 
             // closeButton
             // 
-            this.closeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.closeButton.BackColor = System.Drawing.Color.Gray;
             this.closeButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -90,7 +90,7 @@
             this.titleLabel.AutoSize = true;
             this.titleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titleLabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(12, 9);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(125, 19);
@@ -99,7 +99,7 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.cancelButton.BackColor = System.Drawing.Color.Gray;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelButton.ForeColor = System.Drawing.Color.White;
             this.cancelButton.Location = new System.Drawing.Point(250, 219);
@@ -112,7 +112,7 @@
             // 
             // okButton
             // 
-            this.okButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.okButton.BackColor = System.Drawing.Color.Gray;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.okButton.ForeColor = System.Drawing.Color.White;
             this.okButton.Location = new System.Drawing.Point(414, 219);
@@ -139,9 +139,9 @@
             // 
             // tableCB
             // 
-            this.tableCB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.tableCB.BackColor = System.Drawing.Color.Silver;
             this.tableCB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.tableCB.ForeColor = System.Drawing.Color.White;
+            this.tableCB.ForeColor = System.Drawing.Color.Black;
             this.tableCB.FormattingEnabled = true;
             this.tableCB.Items.AddRange(new object[] {
             "Запись",
@@ -167,10 +167,10 @@
             // 
             // compareTB
             // 
-            this.compareTB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.compareTB.BackColor = System.Drawing.Color.Silver;
             this.compareTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.compareTB.Enabled = false;
-            this.compareTB.ForeColor = System.Drawing.Color.White;
+            this.compareTB.ForeColor = System.Drawing.Color.Black;
             this.compareTB.Location = new System.Drawing.Point(406, 177);
             this.compareTB.Multiline = true;
             this.compareTB.Name = "compareTB";
@@ -179,10 +179,10 @@
             // 
             // filterCB
             // 
-            this.filterCB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.filterCB.BackColor = System.Drawing.Color.Silver;
             this.filterCB.Enabled = false;
             this.filterCB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.filterCB.ForeColor = System.Drawing.Color.White;
+            this.filterCB.ForeColor = System.Drawing.Color.Black;
             this.filterCB.FormattingEnabled = true;
             this.filterCB.Items.AddRange(new object[] {
             "равен",
@@ -198,10 +198,10 @@
             // 
             // fieldCB
             // 
-            this.fieldCB.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.fieldCB.BackColor = System.Drawing.Color.Silver;
             this.fieldCB.Enabled = false;
             this.fieldCB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.fieldCB.ForeColor = System.Drawing.Color.White;
+            this.fieldCB.ForeColor = System.Drawing.Color.Black;
             this.fieldCB.FormattingEnabled = true;
             this.fieldCB.Location = new System.Drawing.Point(15, 176);
             this.fieldCB.Name = "fieldCB";

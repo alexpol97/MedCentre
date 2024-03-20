@@ -48,7 +48,7 @@
             // 
             // minimizeButton
             // 
-            this.minimizeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.minimizeButton.BackColor = System.Drawing.Color.Gray;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.minimizeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minimizeButton.ForeColor = System.Drawing.Color.White;
@@ -62,7 +62,7 @@
             // 
             // closeButton
             // 
-            this.closeButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.closeButton.BackColor = System.Drawing.Color.Gray;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.closeButton.ForeColor = System.Drawing.Color.White;
@@ -90,19 +90,19 @@
             this.titleLabel.AutoSize = true;
             this.titleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.titleLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.titleLabel.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(12, 9);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(184, 21);
+            this.titleLabel.Size = new System.Drawing.Size(172, 19);
             this.titleLabel.TabIndex = 10;
             this.titleLabel.Text = "Добавить пациента";
             // 
             // okButton
             // 
-            this.okButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.okButton.BackColor = System.Drawing.Color.Gray;
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.okButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.okButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.okButton.ForeColor = System.Drawing.Color.White;
             this.okButton.Location = new System.Drawing.Point(234, 408);
             this.okButton.Name = "okButton";
@@ -114,10 +114,10 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.cancelButton.BackColor = System.Drawing.Color.Gray;
             this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancelButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cancelButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cancelButton.ForeColor = System.Drawing.Color.White;
             this.cancelButton.Location = new System.Drawing.Point(10, 408);
             this.cancelButton.Name = "cancelButton";
@@ -155,7 +155,7 @@
             // 
             // phone
             // 
-            this.phone.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.phone.BackColor = System.Drawing.Color.Gray;
             this.phone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.phone.ForeColor = System.Drawing.Color.White;
             this.phone.Location = new System.Drawing.Point(2, 204);
@@ -170,13 +170,13 @@
             this.dateLabel.ForeColor = System.Drawing.Color.White;
             this.dateLabel.Location = new System.Drawing.Point(3, 122);
             this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(145, 21);
+            this.dateLabel.Size = new System.Drawing.Size(136, 19);
             this.dateLabel.TabIndex = 30;
             this.dateLabel.Text = "Дата рождения";
             // 
             // address
             // 
-            this.address.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.address.BackColor = System.Drawing.Color.Gray;
             this.address.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.address.ForeColor = System.Drawing.Color.White;
             this.address.Location = new System.Drawing.Point(2, 85);
@@ -187,7 +187,7 @@
             // 
             // name
             // 
-            this.name.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.name.BackColor = System.Drawing.Color.Gray;
             this.name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.name.ForeColor = System.Drawing.Color.White;
             this.name.Location = new System.Drawing.Point(2, 24);
@@ -202,7 +202,7 @@
             this.phoneLabel.ForeColor = System.Drawing.Color.White;
             this.phoneLabel.Location = new System.Drawing.Point(3, 180);
             this.phoneLabel.Name = "phoneLabel";
-            this.phoneLabel.Size = new System.Drawing.Size(91, 21);
+            this.phoneLabel.Size = new System.Drawing.Size(81, 19);
             this.phoneLabel.TabIndex = 5;
             this.phoneLabel.Text = "Телефон";
             // 
@@ -212,7 +212,7 @@
             this.addressLabel.ForeColor = System.Drawing.Color.White;
             this.addressLabel.Location = new System.Drawing.Point(3, 61);
             this.addressLabel.Name = "addressLabel";
-            this.addressLabel.Size = new System.Drawing.Size(68, 21);
+            this.addressLabel.Size = new System.Drawing.Size(62, 19);
             this.addressLabel.TabIndex = 3;
             this.addressLabel.Text = "Адрес";
             // 
@@ -222,7 +222,7 @@
             this.nameLabel.ForeColor = System.Drawing.Color.White;
             this.nameLabel.Location = new System.Drawing.Point(3, 1);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(53, 21);
+            this.nameLabel.Size = new System.Drawing.Size(45, 19);
             this.nameLabel.TabIndex = 0;
             this.nameLabel.Text = "ФИО";
             // 

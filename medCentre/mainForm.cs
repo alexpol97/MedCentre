@@ -317,5 +317,15 @@ namespace medCentre
             addService aS = new addService();
             aS.ShowDialog();
         }
+
+        private void mainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void titleLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
